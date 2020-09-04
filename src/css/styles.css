@@ -27,6 +27,12 @@ header{
 ul{
   list-style-type: none;
 }
+nav{
+  overflow: hidden;
+}
+nav a{
+  float: left;
+}
 .top-bar{
   background-image: url("../../img/bg.png");
   width: 1920px;
@@ -42,7 +48,7 @@ ul{
 }
 
 .top-bar nav{
-  width: 100px;
+  width: 500px;
   text-align: right;
   padding-left: 1100px;
   padding-right: 200px;
