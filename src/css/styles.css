@@ -77,12 +77,73 @@ header .top-bar{
   /*margin: 10px;
   padding: 5px;
   */
+  display: inline-block;
+  font-style: italic;
   margin: 2%;
   padding: 20px;
   color : #FFF;
 }
 .body-container header .top-bar nav ul li a:hover{
   color: #000;
+  text-decoration: underline;
+  transition: all .3s ease;
+}
+
+.body-container header .top-bar .cianabrand{
+  width: auto;
+  margin: 1%;
+  padding: 1%;
+  display: block;
+  position: absolute;
+  left: 9%;
+}
+
+.body-container header .top-bar .cianabrand img
+{
+  width: 200px;
+}
+
+
+header .bottom-bar{
+  width: 100%;
+  background-color: #B9DCE3;
+  /*position: relative;*/
+}
+
+.body-container header .bottom-bar nav{
+  width: 100%;
+  /*margin: 0.1%;*/
+  padding: 0.5px;
+  margin-left: 12%;
+  padding-right: 30%;
+}
+
+.body-container header .bottom-bar nav ul{
+  width: 100%;
+  padding-right: 10%;
+  overflow: hidden;
+  list-style: none;
+}
+
+.body-container header .bottom-bar nav ul li{
+  float: left;
+  margin: 0.5%;
+  padding: 1%;
+}
+
+.body-container header .bottom-bar nav ul li a{
+  width: 100px;
+  /*margin: 10px;
+  padding: 5px;*/
+  margin: 2%;
+  padding: 2%;
+  color : #000;
+  display: inline-block;
+  font-style: italic;
+}
+
+.body-container header .bottom-bar nav ul li a:hover{
+  color: #fff;
   text-decoration: underline;
   transition: all .3s ease;
 }
