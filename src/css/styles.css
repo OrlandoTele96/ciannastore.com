@@ -29,10 +29,6 @@ a:visited{
   margin: 0px;
 }
 
-img{
-  width: 5%;
-}
-
 header{
   margin: 0;
   padding: 0;
@@ -146,4 +142,140 @@ header .bottom-bar{
   color: #fff;
   text-decoration: underline;
   transition: all .3s ease;
+}
+
+.body-container .main{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.body-container .main .container{
+  width: 90%;
+  margin: 5% auto;
+  padding: 1.5%;
+  border: 3px solid;
+  border-color: rgba(190, 109, 204, 0.2);
+}
+
+.body-container .main .container h2{
+  color: #EC8AFD;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  margin: 2%;
+}
+
+.body-container .main .container .item-container{
+  width: 20%;
+  margin: 2%;
+  padding: 0.2%;
+  background: inherit;
+  display: inline-block;
+  border: 2px solid;
+  border-color: rgba(185, 220, 227, 0.4);
+  position: relative;
+}
+
+.body-container .main .container .item-container .product-img{
+  width: 60%;
+  margin: 1% 20%;
+  padding: 2%;
+  display: inline-block;
+  /*position: absolute;
+  left: 20%;
+  overflow: hidden;*/
+}
+
+.body-container .main .container .item-container .product-img a{
+  width: 100%;
+  margin: 1% auto;
+  padding: 0.5%;
+}
+.body-container .main .container .item-container .product-img a img{
+  width: 100%;
+  opacity: 1;
+}
+
+.body-container .main .container .item-container .product-img a img:hover{
+  opacity: 0.5;
+  transition: all .3s ease;
+}
+
+.body-container .main .container .item-container h3{
+  color: #EC8AFD;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 100%;
+  text-align: center;
+}
+
+.body-container .main .container .item-container .Price{
+  color: #EC8AFD;
+  text-align: center;
+}
+
+.body-container .main .container .item-container:hover{
+  border-color: rgba(185, 220, 227, 1);
+  transition: all .3s ease;
+}
+
+.body-container .contact{
+  width: 80%;
+  margin: 1.041667% auto;
+  padding: 1.041667%;
+  border: 3px solid rgba(190, 109, 204, 0.2);
+}
+
+.body-container .contact h2{
+  text-align: center;
+  color: #EC8AFD;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.body-container .contact .formulary input{
+  display: block;
+  position: relative;
+}
+
+.body-container .contact .formulary input[type="text"],
+.body-container .contact .formulary input[type="email"],
+.body-container .contact .formulary textarea{
+  width: 70%;
+  margin: 2% auto;
+  border: 2px solid #EC8AFD;
+  border-radius: 3px;
+}
+.formulary textarea{
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.body-container .contact .formulary input[type="text"],
+.body-container .contact .formulary input[type="email"]
+{
+  margin: 1.041667% auto;
+}
+
+.body-container .contact .formulary input[type="submit"]
+{
+  width: 15%;
+  margin: 1.041667% auto;
+  background-color: inherit;
+  border: 1px solid #EC8AFD;
+}
+
+.body-container .contact .formulary input[type="submit"]:hover{
+  border :2px solid #EC8AFD;
+}
+
+
+footer{
+  background-color: #EC8AFD;
+  width: 100%;
+  color: #fff;
 }
