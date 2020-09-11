@@ -222,7 +222,7 @@ header .bottom-bar{
 }
 
 .body-container .contact{
-  width: 80%;
+  width: 75%;
   margin: 1.041667% auto;
   padding: 1.041667%;
   border: 3px solid rgba(190, 109, 204, 0.2);
@@ -243,10 +243,11 @@ header .bottom-bar{
 .body-container .contact .formulary input[type="text"],
 .body-container .contact .formulary input[type="email"],
 .body-container .contact .formulary textarea{
-  width: 70%;
+  width: 90%;
   margin: 2% auto;
   border: 2px solid #EC8AFD;
   border-radius: 3px;
+  font-size: 20px;
 }
 .formulary textarea{
   min-height: 100px;
