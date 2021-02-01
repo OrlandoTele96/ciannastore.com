@@ -1,22 +1,133 @@
-*{
-  padding: 0;
+* {
   margin: 0;
-  -webkit-box-sizing : border-box;
+  padding: 0;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body{
-  background: #F2F2F2;
-  font-family: "Times New Roman", Helvetica, Arial;
-  font-size : 15px;
+
+body {
+  font-family: "Times New Roman", Helvetica;
+  font-size: 15px;
+  margin-top: 0.1%;
+  margin-bottom: 1%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-a{
-    text-decoration: none;
-    display: inline-block;
-    font-size: italic;
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: italic;
 }
-
-a:visited{
+a:visited {
   color: inherit;
 }
+
+ul {
+  list-style: none;
+}
+
+article {
+  font-size: normal;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.body-container {
+  width: 100%;
+  margin-top: 0.5%;
+  margin-bottom: 1%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header .top-bar {
+  width: 100%;
+  height: 20%;
+  background-color: #EC8AFD;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .top-bar .cianabrand {
+  width: auto;
+  margin: 1%;
+  padding: 0.5%;
+  padding-left: 10%;
+}
+header .top-bar .cianabrand img {
+  width: 100%;
+}
+header .top-bar nav {
+  width: 20%;
+  margin: 0.1%;
+  padding: 0.1%;
+}
+header .top-bar nav ul {
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+header .top-bar nav ul li {
+  float: left;
+  margin: 5px;
+}
+header .top-bar nav ul li a {
+  width: 100%;
+  display: inline-block;
+  font-style: italic;
+  color: #FFF;
+}
+header .top-bar nav ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+header .bottom-bar {
+  width: 100%;
+  background: #B9DCE3;
+  margin: auto;
+  padding: 10px;
+}
+header .bottom-bar nav {
+  width: 100%;
+  margin: 0.1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .bottom-bar nav ul {
+  width: 100%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+header .bottom-bar nav ul li {
+  width: 8%;
+  margin: 1%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 0.2%;
+}
+header .bottom-bar nav ul li a {
+  width: 60%;
+  color: #000;
+}
+header .bottom-bar nav ul li a:hover {
+  color: #FFF;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+/*# sourceMappingURL=styles.css.map */
