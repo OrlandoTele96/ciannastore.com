@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -9,10 +7,8 @@
 body {
   font-family: "Times New Roman", Helvetica;
   font-size: 15px;
-  margin-top: 0.1%;
-  margin-bottom: 1%;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -37,8 +33,8 @@ article {
 
 .body-container {
   width: 100%;
-  margin-top: 0.5%;
-  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   margin-left: 0%;
   margin-right: 0%;
   padding: 0px;
@@ -159,6 +155,10 @@ header .bottom-bar nav ul li a:hover {
   border: 2px solid;
   border-color: rgba(185, 220, 227, 0.4);
 }
+.main .container .item-container:hover {
+  border-color: #b9dce3;
+  transition: all 0.3s ease;
+}
 .main .container .item-container .product-img {
   width: 60%;
   margin: 1% 20%;
@@ -177,6 +177,75 @@ header .bottom-bar nav ul li a:hover {
 .main .container .item-container .product-img a img:hover {
   opacity: 0.5;
   transition: all 0.3s ease;
+}
+.main .container .item-container h3 {
+  color: #EC8AFD;
+  font-weight: bold;
+  font-style: italic;
+  font: 100%;
+  text-align: center;
+}
+.main .container .item-container .Price {
+  color: #EC8AFD;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact {
+  width: 75%;
+  margin: auto;
+  padding: 1%;
+  border: 3px solid rgba(190, 109, 204, 0.2);
+  margin-bottom: 10px;
+}
+.contact h2 {
+  color: #EC8AFD;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.contact .formulary input {
+  display: block;
+  position: relative;
+}
+.contact .formulary input[type=text] {
+  width: 90%;
+  margin: 2% auto;
+  border: 2px solid #EC8AFD;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.contact .formulary input[type=email] {
+  width: 90%;
+  margin: 2% auto;
+  border: 2px solid #EC8AFD;
+  border-radius: 3px;
+  font-size: 20px;
+}
+.contact .formulary input[type=submit] {
+  width: 15%;
+  margin: 1.041667% auto;
+  background-color: inherit;
+  border: 1px solid #EC8AFD;
+}
+.contact .formulary textarea {
+  width: 90%;
+  margin: 2% auto;
+  border: 2px solid #EC8AFD;
+  border-radius: 3px;
+  font-size: 20px;
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #EC8AFD;
+  width: 100%;
+  margin: 0;
+  padding: 1%;
+  color: #FFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
