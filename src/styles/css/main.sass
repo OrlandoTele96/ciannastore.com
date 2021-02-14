@@ -56,3 +56,24 @@ $MenuBarColor: #B9DCE3
         color: $firstcolor
         text-align: center
         font-size: 18px
+    .profile-container
+      display: flex
+      flex-direction: row
+      .photo-perfil
+        width: 30%
+        margin: 5%
+        padding: 1%
+        border: 1px solid $firstcolor
+        img
+          width: 100%
+          opacity: 1
+          &:hover
+            opacity: 0.5
+      .perfil-info
+        width: 60%
+        margin: 5%
+        padding: 2%
+        .edit
+          a
+            text-decoration: underline
+            color: blue
