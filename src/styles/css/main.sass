@@ -1,0 +1,79 @@
+$firstcolor: #EC8AFD
+$MenuColor: #FFF
+$MenuColorTrans: #000
+$MenuBarColor: #B9DCE3
+
+.main
+  width: 100%
+  margin: 0
+  padding: 0
+  .container
+    width: 90%
+    margin: 5% auto
+    padding: 1.5%
+    border: 3px solid
+    border-color: rgba(190, 109, 204, 0.2)
+    h2
+      color: $firstcolor
+      font-weight: bold
+      font-size: 40px
+      font-style: italic
+      text-align: center
+      margin: 2%
+    .item-container
+      width: 20%
+      margin: 2%
+      padding: 0.2%
+      background: inherit
+      display: inline-block
+      border: 2px solid
+      border-color: rgba(185, 220, 227, 0.4)
+      &:hover
+        border-color: rgba(185, 220, 227, 1)
+        transition: all .3s ease
+      .product-img
+        width: 60%
+        margin: 1% 20%
+        padding: 2%
+        display: inline-block
+        a
+          width: 100%
+          margin: 1% auto
+          padding: 0.5%
+          img
+            width: 100%
+            opacity: 1
+            &:hover
+              opacity: 0.5
+              transition: all .3s ease
+      h3
+        color: $firstcolor
+        font-weight: bold
+        font-style: italic
+        font: 100%
+        text-align: center
+      .Price
+        color: $firstcolor
+        text-align: center
+        font-size: 18px
+    .profile-container
+      display: flex
+      flex-direction: row
+      .photo-perfil
+        width: 30%
+        margin: 5%
+        padding: 1%
+        border: 1px solid $firstcolor
+        img
+          width: 100%
+          opacity: 1
+          &:hover
+            opacity: 0.5
+      .perfil-info
+        width: 60%
+        margin: 5%
+        padding: 2%
+        .edit
+          a
+            text-decoration: underline
+            color: blue
