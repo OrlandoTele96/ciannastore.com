@@ -1,6 +1,3 @@
-<?php
-  $allp = "Todos los productos" ;
-?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
@@ -11,15 +8,15 @@
     initial-scale=1.0,
     maximum-scale=1.0,
     minimum-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="shortcut icon" href="../../../img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/styles/css/styles.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/styles/css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <div class="top-bar">
         <div class="cianabrand">
-          <img src="../../../img/brand.png" alt="">
+          <img src="../img/brand.png" alt="">
         </div>
         <nav>
           <ul>
@@ -41,11 +38,7 @@
       </div>
     </header>
     <section class="main">
-      <section class="container">
-        <section class="all-products">
-          <h2><?php echo $allp; ?></h2>
-        </section>
-      </section>
+      
     </section>
     <footer>
       <div class="networks">
