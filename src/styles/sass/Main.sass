@@ -1,0 +1,54 @@
+$firstcolor: #EC8AFD
+$SecondColor: #B9DCE3
+$MenuColor: #FFF
+$MenuColorTrans: #000
+
+.main
+  width: 90%
+  margin: 20px
+  padding: 10px
+  .container
+    .all-products
+      width: 80%
+      margin: 20px auto
+      border: 2px solid rgba($firstcolor,0.2)
+      h2
+        color : $firstcolor
+        font-weight: bold
+        font-size: 40px
+        font-style: italic
+        text-align: center
+      .products-items
+        width: 100%
+        margin: auto
+        padding: 1px
+        display: flex
+        flex-direction: row
+        justify-content: center
+        .product-item
+          width: 20%
+          margin: 20px
+          padding: 10px
+          border: 2px solid rgba($SecondColor,0.2)
+          &:hover
+            border-color: rgba($SecondColor,0.5)
+          .product-item-img
+            width: 80%
+            margin: 1px auto
+            img
+              width: 90%
+              opacity: 0.5
+              &:hover
+                opacity: 1
+          .product-item-dt
+            color: $firstcolor
+            font-weight: bold
+            font-style: italic
+            font: 100%
+            text-align: center
+            .price
+              font-size: 12px
+              font-weight: lighter
+            .delivery
+              font-size: 12px
+              font-weight: lighter

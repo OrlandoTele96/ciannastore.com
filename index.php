@@ -1,3 +1,6 @@
+<?php
+  $allp = "Todos los productos" ;
+?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
@@ -38,7 +41,11 @@
       </div>
     </header>
     <section class="main">
-      
+      <section class="container">
+        <section class="all-products">
+          <h2><?php echo $allp; ?></h2>
+        </section>
+      </section>
     </section>
     <footer>
       <div class="networks">
