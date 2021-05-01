@@ -13,45 +13,5 @@
     <link rel="stylesheet" href="../assets/styles/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <div class="top-bar">
-        <div class="cianabrand">
-          <img src="../img/brand.png" alt="">
-        </div>
-        <nav>
-          <ul>
-            <li><a href="Perfil.html">Mi perfil</a></li>
-            <li><a href="wishlist.html">Mi lista de deseos</a></li>
-            <li><a href="Cart.html">Carrito</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="bottom-bar">
-        <!--Menu-->
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Novedades.html">Novedades</a></li>
-            <li><a href="About.html">Acerca de</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="main">
-      
-    </section>
-    <footer>
-      <div class="networks">
-        <div class="icon-net">
-          <a href="#"><i class="fa fa-facebook-official"></i></a>
-        </div>
-        <div class="icon-net">
-          <a href="#"><i class="fa fa-twitter"></i></a>
-        </div>
-        <div class="icon-net">
-          <a href="#"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
