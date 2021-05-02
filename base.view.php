@@ -8,9 +8,9 @@
     initial-scale=1.0,
     maximum-scale=1.0,
     minimum-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/css/styles.css">
-    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../assets/styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/styles/css/font-awesome.min.css">
   </head>
   <body>
   </body>
