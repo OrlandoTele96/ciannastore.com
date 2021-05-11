@@ -22,7 +22,7 @@
 
         }*/
         public function getImageBrand(){
-            $open = '<div> class="cianabrand">';
+            $open = '<div class="cianabrand">';
             $Image = '<img src='.'"assets/img/brand.png"'.' alt="">';
             $close = '</div>';
             return $open.$Image.$close;
