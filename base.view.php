@@ -13,5 +13,6 @@
     <link rel="stylesheet" href="assets/styles/css/font-awesome.min.css">
   </head>
   <body>
+    <?php echo $head_section;?>
   </body>
 </html>
