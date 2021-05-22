@@ -41,6 +41,8 @@
         }
         public function getTopMenu(){
             $nav_menu_open = '<nav>';
+            $openlist = '<ul>';
+            $closelist = '</ul>';
             $topmenu = '';
             $openitem = '<li><a href="Perfil.html">';
             $closeitem = '</a></li>';
@@ -48,10 +50,12 @@
             foreach($menu as $item)
                 $topmenu = $topmenu.$openitem.$item.$closeitem;
             $nav_menu_close='</nav>';
-            return $nav_menu_open.$topmenu.$nav_menu_close;
+            return $nav_menu_open.$openlist.$topmenu.$closelist.$nav_menu_close;
         }
         public function getBottomMenu(){
             $open_menu = '<nav>';
+            $openlist = '<ul>';
+            $closelist = '</ul>';
             $bottommenu='';
             $openitem = '<li><a href="index.html">';
             $menu = array('Inicio','Novedades','Acerca de');
@@ -61,7 +65,7 @@
 
             
             $close_menu = '</nav>';
-            return $open_menu.$bottommenu.$close_menu;
+            return $open_menu.$openlist.$bottommenu.$closelist.$close_menu;
         }
     } 
 ?>
