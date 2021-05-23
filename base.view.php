@@ -15,4 +15,17 @@
   <body>
     <?php echo $head_section;?>
   </body>
+  <footer>
+      <div class="networks">
+        <div class="icon-net">
+          <a href="#"><i class="fa fa-facebook-official"></i></a>
+        </div>
+        <div class="icon-net">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="icon-net">
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
 </html>
