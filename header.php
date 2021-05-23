@@ -44,7 +44,7 @@
             $openlist = '<ul>';
             $closelist = '</ul>';
             $topmenu = '';
-            $openitem = '<li><a href="Perfil.html">';
+            $openitem = '<li><a href="profile.php">';
             $closeitem = '</a></li>';
             $menu = array('Mi perfil','Mi lista de deseos','Mi carrito');
             foreach($menu as $item)
